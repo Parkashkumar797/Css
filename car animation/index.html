@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .road {
+            background-color: black;
+            width: 100%;
+            height: 10vh;
+            position: absolute;
+            bottom:5px;
+            display: flex;
+            /* justify-content: space-around; */
+            align-items: center;
+            width: 100%;
+        }
+        .box1{
+            background-color: white;
+            height: 20px;
+            width: 80px;
+            border: 1px solid white;
+            margin-right: 70px;
+        }
+        .box2{
+            margin-left: 50px;
+        }
+        .img{
+            position: absolute;
+            bottom: 49px;
+            display: flex;
+            animation: car 10s  infinite;
+            /* background-image: url("road.jpg");
+            height: 100vh;
+            width: 100vw;
+            background-repeat: repeat-x;
+            bottom: 10px; */
+        }
+        @keyframes car{
+            0%{
+              
+              left: 40px;
+             }
+            15%{
+
+            }
+            25%{
+                 /* bottom: 30px;  */
+                /* left: 10px */
+            }
+            35%{
+                 /* bottom: 30px;  */
+                /* left: 30px; */
+            }
+            45%{
+                /* left:40px; */
+            }
+            55%{
+                /* left:50px; */
+            }  
+        100%{ 
+            left: 1300px;
+            /* transform: rotate(100deg); */
+        }
+    }
+        .circle{
+            background-color: rgb(34, 25, 25);
+            height: 90px;
+            width: 90px;
+            border-radius: 50%;
+            background: repeating-conic-gradient(white,silver 20%);
+            box-sizing: border-box;
+            border: 15px solid black;
+            animation: tyre 10s infinite;
+           
+        }
+        @keyframes tyre{
+            0%{
+                transform: rotate(360deg);
+            }
+            /* 50%{
+                transform: rotate(180deg);  
+            } */
+            100%{
+                transform: rotate(1600deg);
+            }
+        }
+        .circle1{
+            position: absolute;
+            bottom: 30px;
+            left: 65px;
+        }
+        .circle2{
+            position: absolute;
+            bottom: 30px;
+            left: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="img">
+    <img src="images.jpeg" alt="car image" height="200" width="450px">
+    <div class="circle1 circle"></div>
+    <div class="circle2 circle"></div>
+</div>
+    <div class="road">
+    <div class="box2">
+
+    </div>
+   <div class="box1">
+
+   </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+      
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    <div class="box1">
+
+    </div>
+    </div>
+</body>
+
+</html>

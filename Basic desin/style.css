@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-x: hidden; */
+}
+.nav{
+    background-color: white;
+    color: white;
+    display: flex;
+    /* padding: 15px 15px; */
+    justify-content: center;
+}
+ul{
+    background-color: rgb(13, 17, 40);
+    padding: 10px 20px;
+    width: 80vw;
+    margin-top: 0px;
+}
+ul li{
+    display: inline-block;
+    text-transform: capitalize;
+   list-style: none;
+   margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    position: relative;
+    left: 10px;
+}
+.bg-image{
+    background-image: url("dav.jpg");
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100vw;
+
+    background-size: cover;
+    background-position: center ;
+    position: relative;
+    /* text-align: left; */
+    position: relative;
+    /* text-align: center; */
+    background-color: rgba(210, 132, 30, 0.593);
+
+}
+.box1{
+    background-color: rgb(253, 95, 0);
+    /* height: 35vh;
+    width: 25vw;
+    position: relative; */
+}
+.box2{
+    background-color: rgb(13, 17, 40);
+}
+.box3{
+    background-color :rgb(253, 95, 0);
+}
+.box4{
+    background-color: rgb(13, 17, 40);
+}
+.box{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    height: 35vh;
+    width: 25vw;
+    position: relative;
+}
+.footer{
+    display: flex;
+    position: absolute;
+    bottom:0px;
+}
+.search{
+    display: inline-block;
+    border: 2px solid rgb(26, 26, 61);
+    border-radius: 20px;
+    padding: 10px 15px;
+    position: relative;
+    left: 600px;
+}
+input{
+    background: transparent;
+    border: 0px;
+    color: aliceblue;
+    outline: 0px;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+    position: relative;
+    left: 15%;
+    word-break:break-all;
+    line-height: 35px;
+    top: 90px;
+    /* word-spacing: 10px; */
+   width: 500px;
+   z-index: 1;
+}
+.content{
+    color: white;
+    font-size: 19px;
+    position: relative;
+    left: 15%;
+    line-height:5px;
+    margin-top: 20px;
+    top: 90px;
+    width: 600px;
+    z-index: 2;
+}
+button{
+    background-color:  rgb(253, 95, 0);
+    color: white;
+    padding: 10px 19px;
+    border-radius: 25px;
+    font-size: 20px;
+    border: 0px;
+    position: relative;
+    left: 15%;
+    margin-top: 30px;
+    top: 90px;
+}
+.home{
+color: red;
+}
+a:hover{
+color: red;
+text-decoration: underline;
+}
+p{
+position: relative;
+top:30%
+}
+h3{
+position:relative;
+top: 30%;
+}
+button:hover{
+background-color: orangered;
+}
+/* .color{
+    background-color: rgb(253, 95, 0);
+    height: 85vh;
+    width: 100vw;
+    opacity: 0.1;
+    /* z-index: 1; */
+} */
