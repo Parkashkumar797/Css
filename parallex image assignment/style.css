@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.image1{
+    background-image: url("d1.jpeg");
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+    text-align: center;
+}
+.image2{
+    background-image: url("d5.jpg");
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+    font-weight: bolder;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position:relative;
+}
+.image3{
+    background-image: url("d2.jpeg");
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+    font-weight: bolder;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.image4{
+    background-image: url("d6.jpg");
+    height: 100vh;
+    width: 100vw;
+    font-size: 15px;
+    font-weight: bolder;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.p1{
+padding: 10px;;
+top: 40%;
+right: 35%;
+position: absolute;
+font-size: 70px;
+color: rgb(35, 181, 171);
+font-family: cursive;
+letter-spacing: 3px;
+}
+.section1,.section2,.section3,.section4{
+    padding: 30px 10px;
+    text-align: center;
+    background-color: black;
+    color: aqua;
+    font-family: cursive;
+    font-size: 20px;
+}
+.section1:hover,.section3:hover{
+    color: rgb(213, 27, 27);
+    cursor: pointer;
+}
+.section2:hover,.section4:hover{
+    color:rgb(22, 96, 192);
+    cursor: pointer;
+}
+.p1:hover{
+    color:red;
+    cursor: pointer;
+}
